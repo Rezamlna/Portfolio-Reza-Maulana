@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rezamlna.github.io/Portfolio-Reza-Maulana/sitemap.xml
