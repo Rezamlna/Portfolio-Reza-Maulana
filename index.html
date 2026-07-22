@@ -231,7 +231,23 @@
         font-style: italic;
         animation-delay: 0.8s;
       }
-
+.hero-bottom-row {
+  position: absolute;
+  bottom: 5.5rem;
+  left: 2rem;
+  right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+.hero-corner.bl,
+.hero-corner.br {
+  position: static;
+  bottom: auto;
+  left: auto;
+  right: auto;
+}
       @media (max-width: 767px) {
         .hero-corner.tr {
           display: none;
@@ -1829,8 +1845,10 @@
         <span class="hero-script">Graphic Designer</span>
       </div>
 
-      <div class="hero-corner bl">Reza Maulana</div>
-      <div class="hero-corner br" style="font-style: italic">works</div>
+    <div class="hero-bottom-row">
+  <div class="hero-corner bl">Reza Maulana</div>
+  <div class="hero-corner br" style="font-style: italic">works</div>
+</div>
 
       <!-- Nav pill -->
       <nav class="hero-nav">
